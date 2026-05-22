@@ -14,7 +14,7 @@ function Dashboard() {
   useEffect(() => {
     let cancelled = false;
 
-    async function load() {
+    async function load(){
       try {
         setLoading(true);
         setError('');
